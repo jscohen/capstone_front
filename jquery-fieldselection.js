@@ -79,3 +79,5 @@
 	jQuery.each(fieldSelection, function(i) { jQuery.fn[i] = this; });
 
 })();
+
+module.export = fieldSelection
